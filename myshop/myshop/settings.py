@@ -24,6 +24,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'uz6-@(4n!9$@e8hjtqt&14r52nea*cx^f!w4o5txco^$3vhmb^'
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
