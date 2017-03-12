@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^orders/', include('orders.urls', namespace='orders')),
     url(r'^cart/', include('cart.urls', namespace='cart')),
+    url(r'^paypal/', include('paypal.standard.ipn.urls')),
     url(r'^', include('shop.urls', namespace='shop')),
 ]
