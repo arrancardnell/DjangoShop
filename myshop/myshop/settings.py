@@ -26,7 +26,7 @@ SECRET_KEY = 'uz6-@(4n!9$@e8hjtqt&14r52nea*cx^f!w4o5txco^$3vhmb^'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-PAYPAL_RECEIVER_EMAIL = 'signupsites345@yahoo.com'
+PAYPAL_RECEIVER_EMAIL = 'signupsites345-facilitator@yahoo.com'
 PAYPAL_TEST = True
 
 # SECURITY WARNING: don't run with debug turned on in production!

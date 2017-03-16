@@ -7,6 +7,7 @@ from paypal.standard.forms import PayPalPaymentsForm
 from orders.models import Order
 
 
+@csrf_exempt
 def payment_process(request):
     order_id = request.session.get('order_id')
     order = get_object_or_404(Order, id=order_id)
