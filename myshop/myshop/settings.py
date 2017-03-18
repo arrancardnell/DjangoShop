@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'shop',
     'cart',
     'orders',
+    'coupons',
     'paypal.standard.ipn',
     'payment',
     'django.contrib.admin',
