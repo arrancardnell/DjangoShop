@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'coupons',
     'paypal.standard.ipn',
     'payment',
+    'rosetta',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -56,7 +57,7 @@ INSTALLED_APPS = (
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locals.LocaleMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -105,7 +106,7 @@ DATABASES = {
 LANGUAGES = (('en', _('English')), ('es', _('Spanish')))
 LANGUAGE_CODE = 'en'
 
-LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale/'))
+LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale/'),)
 
 TIME_ZONE = 'UTC'
 
