@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 02:15+0200\n"
+"POT-Creation-Date: 2017-03-20 21:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: cart/forms.py:11 cart/templates/cart/detail.html:16
+#: cart/forms.py:10 cart/templates/cart/detail.html:16
 msgid "Quantity"
 msgstr ""
 
@@ -66,7 +66,6 @@ msgid "Total"
 msgstr ""
 
 #: cart/templates/cart/detail.html:71
-#: shop/templates/shop/product/detail.html:23
 msgid "People who bought this also bought"
 msgstr ""
 
@@ -90,60 +89,39 @@ msgstr ""
 msgid "Coupon"
 msgstr ""
 
-#: myshop/settings.py:104
+#: myshop/settings.py:106
 msgid "English"
 msgstr ""
 
-#: myshop/settings.py:105
+#: myshop/settings.py:106
 msgid "Spanish"
 msgstr ""
 
-#: myshop/urls.py:11
-msgid "^cart/"
-msgstr ""
-
-#: myshop/urls.py:12
+#: myshop/urls.py:23
 msgid "^orders/"
 msgstr ""
 
-#: myshop/urls.py:13
-msgid "^payment/"
+#: myshop/urls.py:24
+msgid "^cart/"
 msgstr ""
 
-#: myshop/urls.py:15
+#: myshop/urls.py:25
 msgid "^coupons/"
 msgstr ""
 
-#: payment/templates/payment/canceled.html:5
-msgid "Your payment has not been processed"
+#: myshop/urls.py:27
+msgid "^payment/"
 msgstr ""
 
-#: payment/templates/payment/canceled.html:6
-msgid "There was a problem processing your payment."
-msgstr ""
-
-#: payment/templates/payment/done.html:5
-msgid "Your payment was successful"
-msgstr ""
-
-#: payment/templates/payment/done.html:6
-msgid "Your payment has been successfully received."
-msgstr ""
-
-#: payment/templates/payment/process.html:4
-#: payment/templates/payment/process.html:7
-msgid "Pay using PayPal"
-msgstr ""
-
-#: payment/urls.py:7
+#: payment/urls.py:6
 msgid "^process/$"
 msgstr ""
 
-#: payment/urls.py:8
+#: payment/urls.py:7
 msgid "^done/$"
 msgstr ""
 
-#: payment/urls.py:9
+#: payment/urls.py:8
 msgid "^canceled/$"
 msgstr ""
 
@@ -152,23 +130,19 @@ msgid "My shop"
 msgstr ""
 
 #: shop/templates/shop/base.html:18
-msgid "Language"
-msgstr ""
-
-#: shop/templates/shop/base.html:34
 msgid "Your cart"
 msgstr ""
 
-#: shop/templates/shop/base.html:36
+#: shop/templates/shop/base.html:20
 #, python-format
 msgid ""
 "\n"
-"                            %(total_items)s item%(total_items_plural)s, $"
-"%(total_price)s\n"
+"                            %(total_items)s item%(total_items_plural)s,\n"
+"                            $%(total_price)s\n"
 "                        "
 msgstr ""
 
-#: shop/templates/shop/base.html:41
+#: shop/templates/shop/base.html:26
 msgid "Your cart is empty."
 msgstr ""
 
