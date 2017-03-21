@@ -47,6 +47,7 @@ INSTALLED_APPS = (
     'paypal.standard.ipn',
     'payment',
     'rosetta',
+    'parler',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -107,6 +108,17 @@ LANGUAGES = (('en', _('English')), ('es', _('Spanish')))
 LANGUAGE_CODE = 'en'
 
 LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale/'),)
+
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en',},
+        {'code': 'es',},
+    ),
+    'default': {
+        'fallback': 'en',
+        'hide_untranslated': False,
+    }
+}
 
 TIME_ZONE = 'UTC'
 
