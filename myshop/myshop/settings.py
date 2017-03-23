@@ -30,6 +30,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 PAYPAL_RECEIVER_EMAIL = 'djangoshopus@yahoo.com'
 PAYPAL_TEST = True
 
+# Redis settings
+REDIS_HOST = 'localhost'
+REDIS_PORT = '6379'
+REDIS_DB = 1
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
